@@ -30,8 +30,8 @@ namespace KenoGame.Keno
         public double CalculateWinning(List<int> selectedSpots, List<int> winningSpots, double bet)
         {
             var crossing = selectedSpots.Intersect(winningSpots).ToList();
-            var result = Math.Floor(Math.Pow((double)crossing.Count() * 3 / selectedSpots.Count(), 2) * (1 + bet));
-            return result;
+            var winning = Math.Floor(Math.Pow((double)crossing.Count() * 3 / selectedSpots.Count(), 2) * (1 + bet));
+            return winning;
         }
     }
 }

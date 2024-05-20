@@ -123,14 +123,22 @@ namespace KenoGame
             this.playerBank = new System.Windows.Forms.Label();
             this.playerBankLabel = new System.Windows.Forms.Label();
             this.winningLabel = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.betNumeric)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.attemptNumeric)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // spot1
             // 
-            this.spot1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot1.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot1.Location = new System.Drawing.Point(3, 3);
             this.spot1.Name = "spot1";
             this.spot1.Size = new System.Drawing.Size(55, 53);
@@ -221,7 +229,7 @@ namespace KenoGame
             this.flowLayoutPanel.Controls.Add(this.spot78);
             this.flowLayoutPanel.Controls.Add(this.spot79);
             this.flowLayoutPanel.Controls.Add(this.spot80);
-            this.flowLayoutPanel.Location = new System.Drawing.Point(158, 50);
+            this.flowLayoutPanel.Location = new System.Drawing.Point(230, 36);
             this.flowLayoutPanel.Name = "flowLayoutPanel";
             this.flowLayoutPanel.Size = new System.Drawing.Size(613, 474);
             this.flowLayoutPanel.TabIndex = 1;
@@ -229,7 +237,7 @@ namespace KenoGame
             // 
             // spot2
             // 
-            this.spot2.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot2.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot2.Location = new System.Drawing.Point(64, 3);
             this.spot2.Name = "spot2";
             this.spot2.Size = new System.Drawing.Size(55, 53);
@@ -240,7 +248,7 @@ namespace KenoGame
             // 
             // spot3
             // 
-            this.spot3.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot3.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot3.Location = new System.Drawing.Point(125, 3);
             this.spot3.Name = "spot3";
             this.spot3.Size = new System.Drawing.Size(55, 53);
@@ -251,7 +259,7 @@ namespace KenoGame
             // 
             // spot4
             // 
-            this.spot4.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot4.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot4.Location = new System.Drawing.Point(186, 3);
             this.spot4.Name = "spot4";
             this.spot4.Size = new System.Drawing.Size(55, 53);
@@ -262,7 +270,7 @@ namespace KenoGame
             // 
             // spot5
             // 
-            this.spot5.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot5.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot5.Location = new System.Drawing.Point(247, 3);
             this.spot5.Name = "spot5";
             this.spot5.Size = new System.Drawing.Size(55, 53);
@@ -273,7 +281,7 @@ namespace KenoGame
             // 
             // spot6
             // 
-            this.spot6.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot6.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot6.Location = new System.Drawing.Point(308, 3);
             this.spot6.Name = "spot6";
             this.spot6.Size = new System.Drawing.Size(55, 53);
@@ -284,7 +292,7 @@ namespace KenoGame
             // 
             // spot7
             // 
-            this.spot7.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot7.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot7.Location = new System.Drawing.Point(369, 3);
             this.spot7.Name = "spot7";
             this.spot7.Size = new System.Drawing.Size(55, 53);
@@ -295,7 +303,7 @@ namespace KenoGame
             // 
             // spot8
             // 
-            this.spot8.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot8.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot8.Location = new System.Drawing.Point(430, 3);
             this.spot8.Name = "spot8";
             this.spot8.Size = new System.Drawing.Size(55, 53);
@@ -306,7 +314,7 @@ namespace KenoGame
             // 
             // spot9
             // 
-            this.spot9.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot9.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot9.Location = new System.Drawing.Point(491, 3);
             this.spot9.Name = "spot9";
             this.spot9.Size = new System.Drawing.Size(55, 53);
@@ -317,7 +325,7 @@ namespace KenoGame
             // 
             // spot10
             // 
-            this.spot10.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot10.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot10.Location = new System.Drawing.Point(552, 3);
             this.spot10.Name = "spot10";
             this.spot10.Size = new System.Drawing.Size(55, 53);
@@ -328,7 +336,7 @@ namespace KenoGame
             // 
             // spot11
             // 
-            this.spot11.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot11.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot11.Location = new System.Drawing.Point(3, 62);
             this.spot11.Name = "spot11";
             this.spot11.Size = new System.Drawing.Size(55, 53);
@@ -339,7 +347,7 @@ namespace KenoGame
             // 
             // spot12
             // 
-            this.spot12.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot12.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot12.Location = new System.Drawing.Point(64, 62);
             this.spot12.Name = "spot12";
             this.spot12.Size = new System.Drawing.Size(55, 53);
@@ -350,7 +358,7 @@ namespace KenoGame
             // 
             // spot13
             // 
-            this.spot13.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot13.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot13.Location = new System.Drawing.Point(125, 62);
             this.spot13.Name = "spot13";
             this.spot13.Size = new System.Drawing.Size(55, 53);
@@ -361,7 +369,7 @@ namespace KenoGame
             // 
             // spot14
             // 
-            this.spot14.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot14.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot14.Location = new System.Drawing.Point(186, 62);
             this.spot14.Name = "spot14";
             this.spot14.Size = new System.Drawing.Size(55, 53);
@@ -372,7 +380,7 @@ namespace KenoGame
             // 
             // spot15
             // 
-            this.spot15.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot15.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot15.Location = new System.Drawing.Point(247, 62);
             this.spot15.Name = "spot15";
             this.spot15.Size = new System.Drawing.Size(55, 53);
@@ -383,7 +391,7 @@ namespace KenoGame
             // 
             // spot16
             // 
-            this.spot16.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot16.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot16.Location = new System.Drawing.Point(308, 62);
             this.spot16.Name = "spot16";
             this.spot16.Size = new System.Drawing.Size(55, 53);
@@ -394,7 +402,7 @@ namespace KenoGame
             // 
             // spot17
             // 
-            this.spot17.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot17.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot17.Location = new System.Drawing.Point(369, 62);
             this.spot17.Name = "spot17";
             this.spot17.Size = new System.Drawing.Size(55, 53);
@@ -405,7 +413,7 @@ namespace KenoGame
             // 
             // spot18
             // 
-            this.spot18.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot18.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot18.Location = new System.Drawing.Point(430, 62);
             this.spot18.Name = "spot18";
             this.spot18.Size = new System.Drawing.Size(55, 53);
@@ -416,7 +424,7 @@ namespace KenoGame
             // 
             // spot19
             // 
-            this.spot19.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot19.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot19.Location = new System.Drawing.Point(491, 62);
             this.spot19.Name = "spot19";
             this.spot19.Size = new System.Drawing.Size(55, 53);
@@ -427,7 +435,7 @@ namespace KenoGame
             // 
             // spot20
             // 
-            this.spot20.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot20.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot20.Location = new System.Drawing.Point(552, 62);
             this.spot20.Name = "spot20";
             this.spot20.Size = new System.Drawing.Size(55, 53);
@@ -438,7 +446,7 @@ namespace KenoGame
             // 
             // spot21
             // 
-            this.spot21.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot21.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot21.Location = new System.Drawing.Point(3, 121);
             this.spot21.Name = "spot21";
             this.spot21.Size = new System.Drawing.Size(55, 53);
@@ -449,7 +457,7 @@ namespace KenoGame
             // 
             // spot22
             // 
-            this.spot22.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot22.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot22.Location = new System.Drawing.Point(64, 121);
             this.spot22.Name = "spot22";
             this.spot22.Size = new System.Drawing.Size(55, 53);
@@ -460,7 +468,7 @@ namespace KenoGame
             // 
             // spot23
             // 
-            this.spot23.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot23.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot23.Location = new System.Drawing.Point(125, 121);
             this.spot23.Name = "spot23";
             this.spot23.Size = new System.Drawing.Size(55, 53);
@@ -471,7 +479,7 @@ namespace KenoGame
             // 
             // spot24
             // 
-            this.spot24.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot24.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot24.Location = new System.Drawing.Point(186, 121);
             this.spot24.Name = "spot24";
             this.spot24.Size = new System.Drawing.Size(55, 53);
@@ -482,7 +490,7 @@ namespace KenoGame
             // 
             // spot25
             // 
-            this.spot25.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot25.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot25.Location = new System.Drawing.Point(247, 121);
             this.spot25.Name = "spot25";
             this.spot25.Size = new System.Drawing.Size(55, 53);
@@ -493,7 +501,7 @@ namespace KenoGame
             // 
             // spot26
             // 
-            this.spot26.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot26.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot26.Location = new System.Drawing.Point(308, 121);
             this.spot26.Name = "spot26";
             this.spot26.Size = new System.Drawing.Size(55, 53);
@@ -504,7 +512,7 @@ namespace KenoGame
             // 
             // spot27
             // 
-            this.spot27.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot27.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot27.Location = new System.Drawing.Point(369, 121);
             this.spot27.Name = "spot27";
             this.spot27.Size = new System.Drawing.Size(55, 53);
@@ -515,7 +523,7 @@ namespace KenoGame
             // 
             // spot28
             // 
-            this.spot28.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot28.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot28.Location = new System.Drawing.Point(430, 121);
             this.spot28.Name = "spot28";
             this.spot28.Size = new System.Drawing.Size(55, 53);
@@ -526,7 +534,7 @@ namespace KenoGame
             // 
             // spot29
             // 
-            this.spot29.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot29.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot29.Location = new System.Drawing.Point(491, 121);
             this.spot29.Name = "spot29";
             this.spot29.Size = new System.Drawing.Size(55, 53);
@@ -537,7 +545,7 @@ namespace KenoGame
             // 
             // spot30
             // 
-            this.spot30.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot30.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot30.Location = new System.Drawing.Point(552, 121);
             this.spot30.Name = "spot30";
             this.spot30.Size = new System.Drawing.Size(55, 53);
@@ -548,7 +556,7 @@ namespace KenoGame
             // 
             // spot31
             // 
-            this.spot31.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot31.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot31.Location = new System.Drawing.Point(3, 180);
             this.spot31.Name = "spot31";
             this.spot31.Size = new System.Drawing.Size(55, 53);
@@ -559,7 +567,7 @@ namespace KenoGame
             // 
             // spot32
             // 
-            this.spot32.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot32.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot32.Location = new System.Drawing.Point(64, 180);
             this.spot32.Name = "spot32";
             this.spot32.Size = new System.Drawing.Size(55, 53);
@@ -570,7 +578,7 @@ namespace KenoGame
             // 
             // spot33
             // 
-            this.spot33.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot33.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot33.Location = new System.Drawing.Point(125, 180);
             this.spot33.Name = "spot33";
             this.spot33.Size = new System.Drawing.Size(55, 53);
@@ -581,7 +589,7 @@ namespace KenoGame
             // 
             // spot34
             // 
-            this.spot34.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot34.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot34.Location = new System.Drawing.Point(186, 180);
             this.spot34.Name = "spot34";
             this.spot34.Size = new System.Drawing.Size(55, 53);
@@ -592,7 +600,7 @@ namespace KenoGame
             // 
             // spot35
             // 
-            this.spot35.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot35.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot35.Location = new System.Drawing.Point(247, 180);
             this.spot35.Name = "spot35";
             this.spot35.Size = new System.Drawing.Size(55, 53);
@@ -603,7 +611,7 @@ namespace KenoGame
             // 
             // spot36
             // 
-            this.spot36.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot36.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot36.Location = new System.Drawing.Point(308, 180);
             this.spot36.Name = "spot36";
             this.spot36.Size = new System.Drawing.Size(55, 53);
@@ -614,7 +622,7 @@ namespace KenoGame
             // 
             // spot37
             // 
-            this.spot37.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot37.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot37.Location = new System.Drawing.Point(369, 180);
             this.spot37.Name = "spot37";
             this.spot37.Size = new System.Drawing.Size(55, 53);
@@ -625,7 +633,7 @@ namespace KenoGame
             // 
             // spot38
             // 
-            this.spot38.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot38.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot38.Location = new System.Drawing.Point(430, 180);
             this.spot38.Name = "spot38";
             this.spot38.Size = new System.Drawing.Size(55, 53);
@@ -636,7 +644,7 @@ namespace KenoGame
             // 
             // spot39
             // 
-            this.spot39.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot39.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot39.Location = new System.Drawing.Point(491, 180);
             this.spot39.Name = "spot39";
             this.spot39.Size = new System.Drawing.Size(55, 53);
@@ -647,7 +655,7 @@ namespace KenoGame
             // 
             // spot40
             // 
-            this.spot40.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot40.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot40.Location = new System.Drawing.Point(552, 180);
             this.spot40.Name = "spot40";
             this.spot40.Size = new System.Drawing.Size(55, 53);
@@ -658,7 +666,7 @@ namespace KenoGame
             // 
             // spot41
             // 
-            this.spot41.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot41.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot41.Location = new System.Drawing.Point(3, 239);
             this.spot41.Name = "spot41";
             this.spot41.Size = new System.Drawing.Size(55, 53);
@@ -669,7 +677,7 @@ namespace KenoGame
             // 
             // spot42
             // 
-            this.spot42.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot42.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot42.Location = new System.Drawing.Point(64, 239);
             this.spot42.Name = "spot42";
             this.spot42.Size = new System.Drawing.Size(55, 53);
@@ -680,7 +688,7 @@ namespace KenoGame
             // 
             // spot43
             // 
-            this.spot43.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot43.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot43.Location = new System.Drawing.Point(125, 239);
             this.spot43.Name = "spot43";
             this.spot43.Size = new System.Drawing.Size(55, 53);
@@ -691,7 +699,7 @@ namespace KenoGame
             // 
             // spot44
             // 
-            this.spot44.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot44.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot44.Location = new System.Drawing.Point(186, 239);
             this.spot44.Name = "spot44";
             this.spot44.Size = new System.Drawing.Size(55, 53);
@@ -702,7 +710,7 @@ namespace KenoGame
             // 
             // spot45
             // 
-            this.spot45.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot45.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot45.Location = new System.Drawing.Point(247, 239);
             this.spot45.Name = "spot45";
             this.spot45.Size = new System.Drawing.Size(55, 53);
@@ -713,7 +721,7 @@ namespace KenoGame
             // 
             // spot46
             // 
-            this.spot46.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot46.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot46.Location = new System.Drawing.Point(308, 239);
             this.spot46.Name = "spot46";
             this.spot46.Size = new System.Drawing.Size(55, 53);
@@ -724,7 +732,7 @@ namespace KenoGame
             // 
             // spot47
             // 
-            this.spot47.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot47.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot47.Location = new System.Drawing.Point(369, 239);
             this.spot47.Name = "spot47";
             this.spot47.Size = new System.Drawing.Size(55, 53);
@@ -735,7 +743,7 @@ namespace KenoGame
             // 
             // spot48
             // 
-            this.spot48.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot48.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot48.Location = new System.Drawing.Point(430, 239);
             this.spot48.Name = "spot48";
             this.spot48.Size = new System.Drawing.Size(55, 53);
@@ -746,7 +754,7 @@ namespace KenoGame
             // 
             // spot49
             // 
-            this.spot49.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot49.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot49.Location = new System.Drawing.Point(491, 239);
             this.spot49.Name = "spot49";
             this.spot49.Size = new System.Drawing.Size(55, 53);
@@ -757,7 +765,7 @@ namespace KenoGame
             // 
             // spot50
             // 
-            this.spot50.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot50.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot50.Location = new System.Drawing.Point(552, 239);
             this.spot50.Name = "spot50";
             this.spot50.Size = new System.Drawing.Size(55, 53);
@@ -768,7 +776,7 @@ namespace KenoGame
             // 
             // spot51
             // 
-            this.spot51.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot51.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot51.Location = new System.Drawing.Point(3, 298);
             this.spot51.Name = "spot51";
             this.spot51.Size = new System.Drawing.Size(55, 53);
@@ -779,7 +787,7 @@ namespace KenoGame
             // 
             // spot52
             // 
-            this.spot52.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot52.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot52.Location = new System.Drawing.Point(64, 298);
             this.spot52.Name = "spot52";
             this.spot52.Size = new System.Drawing.Size(55, 53);
@@ -790,7 +798,7 @@ namespace KenoGame
             // 
             // spot53
             // 
-            this.spot53.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot53.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot53.Location = new System.Drawing.Point(125, 298);
             this.spot53.Name = "spot53";
             this.spot53.Size = new System.Drawing.Size(55, 53);
@@ -801,7 +809,7 @@ namespace KenoGame
             // 
             // spot54
             // 
-            this.spot54.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot54.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot54.Location = new System.Drawing.Point(186, 298);
             this.spot54.Name = "spot54";
             this.spot54.Size = new System.Drawing.Size(55, 53);
@@ -812,7 +820,7 @@ namespace KenoGame
             // 
             // spot55
             // 
-            this.spot55.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot55.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot55.Location = new System.Drawing.Point(247, 298);
             this.spot55.Name = "spot55";
             this.spot55.Size = new System.Drawing.Size(55, 53);
@@ -823,7 +831,7 @@ namespace KenoGame
             // 
             // spot56
             // 
-            this.spot56.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot56.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot56.Location = new System.Drawing.Point(308, 298);
             this.spot56.Name = "spot56";
             this.spot56.Size = new System.Drawing.Size(55, 53);
@@ -834,7 +842,7 @@ namespace KenoGame
             // 
             // spot57
             // 
-            this.spot57.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot57.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot57.Location = new System.Drawing.Point(369, 298);
             this.spot57.Name = "spot57";
             this.spot57.Size = new System.Drawing.Size(55, 53);
@@ -845,7 +853,7 @@ namespace KenoGame
             // 
             // spot58
             // 
-            this.spot58.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot58.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot58.Location = new System.Drawing.Point(430, 298);
             this.spot58.Name = "spot58";
             this.spot58.Size = new System.Drawing.Size(55, 53);
@@ -856,7 +864,7 @@ namespace KenoGame
             // 
             // spot59
             // 
-            this.spot59.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot59.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot59.Location = new System.Drawing.Point(491, 298);
             this.spot59.Name = "spot59";
             this.spot59.Size = new System.Drawing.Size(55, 53);
@@ -867,7 +875,7 @@ namespace KenoGame
             // 
             // spot60
             // 
-            this.spot60.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot60.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot60.Location = new System.Drawing.Point(552, 298);
             this.spot60.Name = "spot60";
             this.spot60.Size = new System.Drawing.Size(55, 53);
@@ -878,7 +886,7 @@ namespace KenoGame
             // 
             // spot61
             // 
-            this.spot61.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot61.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot61.Location = new System.Drawing.Point(3, 357);
             this.spot61.Name = "spot61";
             this.spot61.Size = new System.Drawing.Size(55, 53);
@@ -889,7 +897,7 @@ namespace KenoGame
             // 
             // spot62
             // 
-            this.spot62.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot62.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot62.Location = new System.Drawing.Point(64, 357);
             this.spot62.Name = "spot62";
             this.spot62.Size = new System.Drawing.Size(55, 53);
@@ -900,7 +908,7 @@ namespace KenoGame
             // 
             // spot63
             // 
-            this.spot63.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot63.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot63.Location = new System.Drawing.Point(125, 357);
             this.spot63.Name = "spot63";
             this.spot63.Size = new System.Drawing.Size(55, 53);
@@ -911,7 +919,7 @@ namespace KenoGame
             // 
             // spot64
             // 
-            this.spot64.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot64.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot64.Location = new System.Drawing.Point(186, 357);
             this.spot64.Name = "spot64";
             this.spot64.Size = new System.Drawing.Size(55, 53);
@@ -922,7 +930,7 @@ namespace KenoGame
             // 
             // spot65
             // 
-            this.spot65.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot65.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot65.Location = new System.Drawing.Point(247, 357);
             this.spot65.Name = "spot65";
             this.spot65.Size = new System.Drawing.Size(55, 53);
@@ -933,7 +941,7 @@ namespace KenoGame
             // 
             // spot66
             // 
-            this.spot66.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot66.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot66.Location = new System.Drawing.Point(308, 357);
             this.spot66.Name = "spot66";
             this.spot66.Size = new System.Drawing.Size(55, 53);
@@ -944,7 +952,7 @@ namespace KenoGame
             // 
             // spot67
             // 
-            this.spot67.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot67.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot67.Location = new System.Drawing.Point(369, 357);
             this.spot67.Name = "spot67";
             this.spot67.Size = new System.Drawing.Size(55, 53);
@@ -955,7 +963,7 @@ namespace KenoGame
             // 
             // spot68
             // 
-            this.spot68.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot68.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot68.Location = new System.Drawing.Point(430, 357);
             this.spot68.Name = "spot68";
             this.spot68.Size = new System.Drawing.Size(55, 53);
@@ -966,7 +974,7 @@ namespace KenoGame
             // 
             // spot69
             // 
-            this.spot69.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot69.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot69.Location = new System.Drawing.Point(491, 357);
             this.spot69.Name = "spot69";
             this.spot69.Size = new System.Drawing.Size(55, 53);
@@ -977,7 +985,7 @@ namespace KenoGame
             // 
             // spot70
             // 
-            this.spot70.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot70.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot70.Location = new System.Drawing.Point(552, 357);
             this.spot70.Name = "spot70";
             this.spot70.Size = new System.Drawing.Size(55, 53);
@@ -988,7 +996,7 @@ namespace KenoGame
             // 
             // spot71
             // 
-            this.spot71.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot71.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot71.Location = new System.Drawing.Point(3, 416);
             this.spot71.Name = "spot71";
             this.spot71.Size = new System.Drawing.Size(55, 53);
@@ -999,7 +1007,7 @@ namespace KenoGame
             // 
             // spot72
             // 
-            this.spot72.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot72.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot72.Location = new System.Drawing.Point(64, 416);
             this.spot72.Name = "spot72";
             this.spot72.Size = new System.Drawing.Size(55, 53);
@@ -1010,7 +1018,7 @@ namespace KenoGame
             // 
             // spot73
             // 
-            this.spot73.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot73.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot73.Location = new System.Drawing.Point(125, 416);
             this.spot73.Name = "spot73";
             this.spot73.Size = new System.Drawing.Size(55, 53);
@@ -1021,7 +1029,7 @@ namespace KenoGame
             // 
             // spot74
             // 
-            this.spot74.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot74.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot74.Location = new System.Drawing.Point(186, 416);
             this.spot74.Name = "spot74";
             this.spot74.Size = new System.Drawing.Size(55, 53);
@@ -1032,7 +1040,7 @@ namespace KenoGame
             // 
             // spot75
             // 
-            this.spot75.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot75.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot75.Location = new System.Drawing.Point(247, 416);
             this.spot75.Name = "spot75";
             this.spot75.Size = new System.Drawing.Size(55, 53);
@@ -1043,7 +1051,7 @@ namespace KenoGame
             // 
             // spot76
             // 
-            this.spot76.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot76.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot76.Location = new System.Drawing.Point(308, 416);
             this.spot76.Name = "spot76";
             this.spot76.Size = new System.Drawing.Size(55, 53);
@@ -1054,7 +1062,7 @@ namespace KenoGame
             // 
             // spot77
             // 
-            this.spot77.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot77.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot77.Location = new System.Drawing.Point(369, 416);
             this.spot77.Name = "spot77";
             this.spot77.Size = new System.Drawing.Size(55, 53);
@@ -1065,7 +1073,7 @@ namespace KenoGame
             // 
             // spot78
             // 
-            this.spot78.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot78.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot78.Location = new System.Drawing.Point(430, 416);
             this.spot78.Name = "spot78";
             this.spot78.Size = new System.Drawing.Size(55, 53);
@@ -1076,7 +1084,7 @@ namespace KenoGame
             // 
             // spot79
             // 
-            this.spot79.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot79.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot79.Location = new System.Drawing.Point(491, 416);
             this.spot79.Name = "spot79";
             this.spot79.Size = new System.Drawing.Size(55, 53);
@@ -1087,7 +1095,7 @@ namespace KenoGame
             // 
             // spot80
             // 
-            this.spot80.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spot80.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.spot80.Location = new System.Drawing.Point(552, 416);
             this.spot80.Name = "spot80";
             this.spot80.Size = new System.Drawing.Size(55, 53);
@@ -1098,8 +1106,9 @@ namespace KenoGame
             // 
             // gameStartBtn
             // 
-            this.gameStartBtn.Location = new System.Drawing.Point(750, 555);
-            this.gameStartBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gameStartBtn.Font = new System.Drawing.Font("Montserrat Thin SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.gameStartBtn.Location = new System.Drawing.Point(820, 555);
+            this.gameStartBtn.Margin = new System.Windows.Forms.Padding(2);
             this.gameStartBtn.Name = "gameStartBtn";
             this.gameStartBtn.Size = new System.Drawing.Size(154, 34);
             this.gameStartBtn.TabIndex = 2;
@@ -1115,7 +1124,7 @@ namespace KenoGame
             0,
             0,
             65536});
-            this.betNumeric.Location = new System.Drawing.Point(33, 571);
+            this.betNumeric.Location = new System.Drawing.Point(34, 569);
             this.betNumeric.Maximum = new decimal(new int[] {
             50,
             0,
@@ -1127,7 +1136,7 @@ namespace KenoGame
             0,
             65536});
             this.betNumeric.Name = "betNumeric";
-            this.betNumeric.Size = new System.Drawing.Size(120, 20);
+            this.betNumeric.Size = new System.Drawing.Size(143, 20);
             this.betNumeric.TabIndex = 4;
             this.betNumeric.Value = new decimal(new int[] {
             5,
@@ -1139,23 +1148,31 @@ namespace KenoGame
             // 
             // betLabel
             // 
-            this.betLabel.Location = new System.Drawing.Point(31, 555);
+            this.betLabel.BackColor = System.Drawing.Color.Transparent;
+            this.betLabel.Font = new System.Drawing.Font("Montserrat Thin Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.betLabel.ForeColor = System.Drawing.Color.White;
+            this.betLabel.Image = global::KenoGame.Properties.Resources.realistic_golden_frame_design_23_2149247414;
+            this.betLabel.Location = new System.Drawing.Point(32, 540);
             this.betLabel.Name = "betLabel";
-            this.betLabel.Size = new System.Drawing.Size(123, 13);
+            this.betLabel.Size = new System.Drawing.Size(121, 28);
             this.betLabel.TabIndex = 0;
             this.betLabel.Text = "Ставка";
             // 
             // attemptLabel
             // 
-            this.attemptLabel.Location = new System.Drawing.Point(170, 555);
+            this.attemptLabel.BackColor = System.Drawing.Color.Transparent;
+            this.attemptLabel.Font = new System.Drawing.Font("Montserrat Thin SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.attemptLabel.ForeColor = System.Drawing.Color.White;
+            this.attemptLabel.Image = global::KenoGame.Properties.Resources.realistic_golden_frame_design_23_2149247414;
+            this.attemptLabel.Location = new System.Drawing.Point(230, 544);
             this.attemptLabel.Name = "attemptLabel";
-            this.attemptLabel.Size = new System.Drawing.Size(123, 13);
+            this.attemptLabel.Size = new System.Drawing.Size(144, 19);
             this.attemptLabel.TabIndex = 5;
             this.attemptLabel.Text = "Кол-во попыток";
             // 
             // attemptNumeric
             // 
-            this.attemptNumeric.Location = new System.Drawing.Point(173, 571);
+            this.attemptNumeric.Location = new System.Drawing.Point(229, 569);
             this.attemptNumeric.Maximum = new decimal(new int[] {
             10,
             0,
@@ -1167,7 +1184,7 @@ namespace KenoGame
             0,
             0});
             this.attemptNumeric.Name = "attemptNumeric";
-            this.attemptNumeric.Size = new System.Drawing.Size(120, 20);
+            this.attemptNumeric.Size = new System.Drawing.Size(145, 20);
             this.attemptNumeric.TabIndex = 6;
             this.attemptNumeric.Value = new decimal(new int[] {
             1,
@@ -1179,8 +1196,9 @@ namespace KenoGame
             // 
             // clearBtn
             // 
-            this.clearBtn.Location = new System.Drawing.Point(571, 555);
-            this.clearBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.clearBtn.Font = new System.Drawing.Font("Montserrat Thin SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.clearBtn.Location = new System.Drawing.Point(638, 555);
+            this.clearBtn.Margin = new System.Windows.Forms.Padding(2);
             this.clearBtn.Name = "clearBtn";
             this.clearBtn.Size = new System.Drawing.Size(161, 34);
             this.clearBtn.TabIndex = 7;
@@ -1191,40 +1209,101 @@ namespace KenoGame
             // playerBank
             // 
             this.playerBank.AutoSize = true;
-            this.playerBank.Location = new System.Drawing.Point(51, 66);
+            this.playerBank.BackColor = System.Drawing.Color.Transparent;
+            this.playerBank.Font = new System.Drawing.Font("Montserrat Thin", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.playerBank.ForeColor = System.Drawing.Color.White;
+            this.playerBank.Image = global::KenoGame.Properties.Resources.realistic_golden_frame_design_23_2149247414;
+            this.playerBank.Location = new System.Drawing.Point(69, 90);
             this.playerBank.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.playerBank.Name = "playerBank";
-            this.playerBank.Size = new System.Drawing.Size(31, 13);
+            this.playerBank.Size = new System.Drawing.Size(98, 44);
             this.playerBank.TabIndex = 8;
             this.playerBank.Text = "1000";
             // 
             // playerBankLabel
             // 
             this.playerBankLabel.AutoSize = true;
-            this.playerBankLabel.Location = new System.Drawing.Point(31, 50);
+            this.playerBankLabel.BackColor = System.Drawing.Color.Transparent;
+            this.playerBankLabel.Font = new System.Drawing.Font("Montserrat Thin", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.playerBankLabel.ForeColor = System.Drawing.Color.White;
+            this.playerBankLabel.Image = global::KenoGame.Properties.Resources.realistic_golden_frame_design_23_2149247414;
+            this.playerBankLabel.Location = new System.Drawing.Point(37, 51);
             this.playerBankLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.playerBankLabel.Name = "playerBankLabel";
-            this.playerBankLabel.Size = new System.Drawing.Size(70, 13);
+            this.playerBankLabel.Size = new System.Drawing.Size(156, 29);
             this.playerBankLabel.TabIndex = 9;
             this.playerBankLabel.Text = "Банк игрока";
             // 
             // winningLabel
             // 
             this.winningLabel.AutoSize = true;
-            this.winningLabel.Location = new System.Drawing.Point(31, 122);
+            this.winningLabel.BackColor = System.Drawing.Color.Transparent;
+            this.winningLabel.Font = new System.Drawing.Font("Montserrat Thin Medium", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.winningLabel.ForeColor = System.Drawing.Color.White;
+            this.winningLabel.Image = global::KenoGame.Properties.Resources.realistic_golden_frame_design_23_2149247414;
+            this.winningLabel.Location = new System.Drawing.Point(71, 189);
             this.winningLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.winningLabel.Name = "winningLabel";
-            this.winningLabel.Size = new System.Drawing.Size(0, 13);
+            this.winningLabel.Size = new System.Drawing.Size(0, 20);
             this.winningLabel.TabIndex = 10;
             this.winningLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Image = global::KenoGame.Properties.Resources.realistic_golden_frame_design_23_2149247414__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 39);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(203, 112);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox2.Image = global::KenoGame.Properties.Resources.realistic_golden_frame_design_23_2149247414__1_;
+            this.pictureBox2.Location = new System.Drawing.Point(17, 531);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(176, 74);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 12;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox3.Image = global::KenoGame.Properties.Resources.realistic_golden_frame_design_23_2149247414__1_;
+            this.pictureBox3.Location = new System.Drawing.Point(211, 531);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(176, 74);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 13;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox4.Image = global::KenoGame.Properties.Resources.realistic_golden_frame_design_23_2149247414__1_;
+            this.pictureBox4.Location = new System.Drawing.Point(12, 157);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(203, 339);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 14;
+            this.pictureBox4.TabStop = false;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackgroundImage = global::KenoGame.Properties.Resources.bg;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(940, 617);
+            this.ClientSize = new System.Drawing.Size(1002, 617);
             this.Controls.Add(this.winningLabel);
             this.Controls.Add(this.playerBankLabel);
             this.Controls.Add(this.playerBank);
@@ -1235,6 +1314,10 @@ namespace KenoGame
             this.Controls.Add(this.betNumeric);
             this.Controls.Add(this.gameStartBtn);
             this.Controls.Add(this.flowLayoutPanel);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -1246,6 +1329,10 @@ namespace KenoGame
             this.flowLayoutPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.betNumeric)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.attemptNumeric)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1343,6 +1430,10 @@ namespace KenoGame
         private System.Windows.Forms.Label playerBank;
         private System.Windows.Forms.Label playerBankLabel;
         private Label winningLabel;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
+        private PictureBox pictureBox3;
+        private PictureBox pictureBox4;
     }
 }
 

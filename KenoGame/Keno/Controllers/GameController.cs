@@ -75,8 +75,8 @@ namespace KenoGame.Keno.Controllers
             winningLabel.Text = "";
             for (int i = 0; i < game.AttemptsCount; i++)
             {
-                game.Player.DecreaseBank(game.Bet * selectedSpots.Count);
-                initialControls.PlayerBankLabel.Text = game.Player.Bank.ToString();
+                var currBank = game.Player.DecreaseBank(game.Bet * selectedSpots.Count);
+                initialControls.PlayerBankLabel.Text = currBank.ToString();
                 var attempt = new Attempt();
                 var winningSpots = attempt.GenerateWinningSpots();
                 await PaintWinningSpots(winningSpots, flowLayoutPanel);
@@ -84,8 +84,8 @@ namespace KenoGame.Keno.Controllers
                 winningLabel.Text += $"Попытка {i+1}\nВыигрыш\n{winning}\n\n";
                 if (winning > 0)
                 {
-                    game.Player.IncreaseBank(winning);
-                    initialControls.PlayerBankLabel.Text = game.Player.Bank.ToString();
+                    currBank = game.Player.IncreaseBank(winning);
+                    initialControls.PlayerBankLabel.Text = currBank.ToString();
                 }
                 await Task.Delay(1000);
                 await PaintWinningSpots(winningSpots, flowLayoutPanel, true);
