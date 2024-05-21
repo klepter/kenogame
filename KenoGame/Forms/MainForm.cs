@@ -9,7 +9,6 @@ namespace KenoGame
 {
     public partial class MainForm : Form
     {
-        private readonly Game game = new Game();
         private readonly GameController controller = new GameController();
 
         public MainForm()
